@@ -19,4 +19,5 @@ Now you can manually trigger the worker by sending a HTTP GET Request to `http:/
 ## License
 Geocaching and Signal the Frog are trademarks of Groundspeak. This project is not supported, endorsed, or in any other relation with Groundspeak Inc. It's a fan project.
 
-This work is licensed under the [MIT License](https://opensource.org/license/mit/).
+This work is licensed under the [MIT License](https://opensource.org/license/mit/).  
+Full License Text: [LICENSE.md](./LICENSE.md)
