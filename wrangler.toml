@@ -1,0 +1,6 @@
+name = "gc-souvenir-notifier"
+main = "src/index.ts"
+compatibility_date = "2023-04-11"
+
+[triggers]
+crons = [ "0 6 * * *" ]
