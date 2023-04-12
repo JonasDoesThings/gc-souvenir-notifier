@@ -56,9 +56,6 @@ export default {
     const todayStartTimestamp = Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate(), 0, 0, 0, 0);
     const todayEndTimestamp = Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate(), 23, 59, 59, 999);
 
-    console.log(todayStartTimestamp);
-    console.log(todayEndTimestamp);
-
     const dom = htmlparser2.parseDocument(await (await fetch('https://thea-team.net/souvenirs/date-based')).text());
     const table = domutils.getElementsByTagName('table', dom)[0];
     domutils.getElementsByTagName('tr', table).forEach(tableRow => {
