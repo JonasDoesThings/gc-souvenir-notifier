@@ -13,7 +13,7 @@ e.g. `NOTIFIED_WEBHOOKS="https://discord.com/api/webhooks/.../..."`
 To set the environment variable for a deployed Worker, use the Cloudflare Dashboard, navigate to the settings tab of the published worker and create an according environment variable.
 
 ### Dev
-Run the project locally using `yarn start --local --test-scheduled --var NOTIFIED_WEBHOOKS:https://discord.com/api/webhooks/.../...`  
+Run the project locally using `yarn dev --local --test-scheduled --var NOTIFIED_WEBHOOKS:https://discord.com/api/webhooks/.../...`  
 Now you can manually trigger the worker by sending a HTTP GET Request to `http://localhost:8787/__scheduled`
 
 ## License
